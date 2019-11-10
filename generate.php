@@ -25,4 +25,4 @@ foreach($namesArray as $name){
 
 }
 
-file_put_contents('emails.md', implode("\n", $emails));
+file_put_contents('emails.md', implode(", ", $emails));
