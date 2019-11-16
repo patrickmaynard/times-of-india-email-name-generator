@@ -11,8 +11,8 @@ $emails = [];
 
 foreach($namesArray as $name){
 	//Yes, the spec says email names should be case-insensitive. 
-	//But all mentions of the TOI format online show it as lowercase.
-	//Best not to take any chances.
+	//But all mentions of the TOI format I've seen online show it as lowercase.
+	//So it's probably best not to take any chances.
 	$name = trim(strtolower($name));
 	$nameParts = explode(' ', $name);
 	//We don't want three-part names, since I don't know the pattern for those.
